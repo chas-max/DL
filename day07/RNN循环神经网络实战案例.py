@@ -122,36 +122,6 @@ if __name__ == "__main__":
     # x, y = dataset[1]
     # print(f'输入值{x}')
     # print(f'输出值{y}')# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-venv/
-env/
-
-# IDE
-.idea/
-.vscode/
-*.swp
-*.swo
-
-# Model files
-*.pth
-*.pt
-*.bin
-
-# Data files (if large)
-data/*.txt
-data/cifar-10-batches-py/*
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# OS
-.DS_Store
-Thumbs.db
-
     # model = RNN(word_count)
     # print(model)
     model_evaluate('星星',50)
