@@ -112,8 +112,6 @@ def model_evaluate(start_dict, length):
         generate_txt = torch.argmax(output).item()
         start_dict = unique_words[generate_txt]
         print(start_dict, end='')
-
-
 if __name__ == "__main__":
     # print("total_words:", len(total_words))
     # print("unique_words:", unique_words)
